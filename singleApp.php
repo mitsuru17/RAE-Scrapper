@@ -15,9 +15,9 @@
     );          
    
 //     $endpoint = 'http://lema.rae.es/drae/srv/';
-    $endpoint = 'http://dle.rae.es/srv/';
+    $endpoint = 'http://dle.rae.es/srv/search?w=';
     
-    $queryURL = $endpoint . "search?" . http_build_query( $query );
+    $queryURL = $endpoint . http_build_query( $query );
 
     //Todo: These fields could be obtained from the first page query, hence, this part of the word/meaning phase it could be automatized.
     $fields = array(
