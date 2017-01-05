@@ -21,14 +21,14 @@
 
     //Todo: These fields could be obtained from the first page query, hence, this part of the word/meaning phase it could be automatized.
     $fields = array(
-        'TS014dfc77_id' => urlencode( "3" ),
-        'TS014dfc77_cr' => '0062b2344bb9411eefe2a2de74bf702b:deec:hf74lCd7:2024784252',
-        'TS014dfc77_76' => urlencode( "0" ),
-        'TS014dfc77_86' => urlencode( "0" ),        
-        'TS014dfc77_md' => urlencode( "1" ),
-        'TS014dfc77_rf' => urlencode( "0" ),
-        'TS014dfc77_ct' => urlencode( "0" ),
-        'TS014dfc77_pd' => urlencode( "0" )
+        'TS017111a7_id' => urlencode( "3" ),
+        'TS017111a7_cr' => '54610cdd37be48456d6e4e031a8bd337:rpos:9g7Igs2h:519888538',
+        'TS017111a7_76' => urlencode( "0" ),
+        'TS017111a7_86' => urlencode( "0" ),        
+        'TS017111a7_md' => urlencode( "1" ),
+        'TS017111a7_rf' => urlencode( "0" ),
+        'TS017111a7_ct' => urlencode( "0" ),
+        'TS017111a7_pd' => urlencode( "0" )
     );
 
     $fields_string = http_build_query( $fields );
@@ -40,7 +40,7 @@
     curl_setopt( $ch, CURLOPT_URL           , $queryURL       );
     curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1               );
     curl_setopt( $ch, CURLOPT_POST          , count( $query ) );
-//     curl_setopt( $ch, CURLOPT_POSTFIELDS    , $fields_string  );
+    curl_setopt( $ch, CURLOPT_POSTFIELDS    , $fields_string  );
 
 
     //execute post
