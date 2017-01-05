@@ -40,7 +40,7 @@
     curl_setopt( $ch, CURLOPT_URL           , $queryURL       );
     curl_setopt( $ch, CURLOPT_RETURNTRANSFER, 1               );
     curl_setopt( $ch, CURLOPT_POST          , count( $query ) );
-    curl_setopt( $ch, CURLOPT_POSTFIELDS    , $fields_string  );
+//     curl_setopt( $ch, CURLOPT_POSTFIELDS    , $fields_string  );
 
 
     //execute post
