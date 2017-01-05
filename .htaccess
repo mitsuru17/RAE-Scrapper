@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteBase /RAE-API
-#RewriteRule ^/search/(\w+) singleApp.php?search=$1
+RewriteRule ^/search/(\w+) singleApp.php?search=$1
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
