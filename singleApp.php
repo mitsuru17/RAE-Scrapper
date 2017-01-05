@@ -22,7 +22,7 @@
     //Todo: These fields could be obtained from the first page query, hence, this part of the word/meaning phase it could be automatized.
     $fields = array(
         'TS017111a7_id' => urlencode( "3" ),
-        'TS017111a7_cr' => '54610cdd37be48456d6e4e031a8bd337:rpos:9g7Igs2h:519888538',
+        'TS017111a7_cr' => 'e4e6892f8ea1507fb41c3fddb2f9a65d:klkk:b74KYMLO:17900892',
         'TS017111a7_76' => urlencode( "0" ),
         'TS017111a7_86' => urlencode( "0" ),        
         'TS017111a7_md' => urlencode( "1" ),
